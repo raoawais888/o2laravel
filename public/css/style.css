@@ -1,0 +1,385 @@
+/* topbar_website styling */
+.topbar_website {
+  padding: 5px 0;
+  font-family: Frutiger45Light, sans-serif;
+}
+
+.topbar_website a {
+  color: #003;
+  margin-right: 3px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.topright-links {
+  text-align: end;
+}
+
+.topbar_website a:hover {
+  color: #003;
+  text-decoration: underline;
+}
+
+/* Navigation bar styling */
+.navigation-bar {
+  background-color: #0019a5;
+}
+
+.navigation-bar .rightside a {
+  text-decoration: none;
+}
+
+.navigation-bar .rightside a:hover {
+  color: #307ac2;
+}
+
+.navigation-bar img {
+  width: 50px;
+  height: auto;
+}
+
+.navigation-bar .nav-link {
+  color: white !important;
+  margin: 0 20px;
+}
+
+.navbar-light .navbar-toggler {
+  background-color: #ffffff;
+}
+
+.rightside a {
+  margin-right: 15px;
+  color: white;
+}
+
+.hero-sec {
+  background-image: url(../img/page_header_bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 0 auto;
+  color: white;
+  /* height: 130px; */
+}
+
+.hero-sec h1 {
+  padding: 40px 70px;
+  margin-bottom: 0;
+  text-align: center;
+  color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 2.5em;
+  font-weight: 500;
+}
+
+h2 {
+  color: #032b5a;
+  font-size: 25px !important;
+  font-family: Frutiger45Light, sans-serif;
+  font-weight: 100 !important;
+  line-height: 1em !important;
+  margin-bottom: 0 !important;
+}
+
+h3 {
+  color: #032b5a;
+  font-size: 22px !important;
+  font-family: Frutiger45Light, sans-serif;
+  font-weight: 100 !important;
+  line-height: 1em !important;
+}
+
+h4 {
+  font-family: Frutiger45Light, sans-serif;
+}
+
+.main-sec {
+  background-color: #f8f8f8;
+  padding: 20px 0;
+}
+
+.main-sec .form-sec .form-control {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-color: #d8d8d8;
+  width: 100%;
+  display: block;
+  padding: 6px 8px 4px;
+  height: 40px;
+  margin: 8px 0;
+}
+
+.main-sec .form-sec .form-control:focus {
+  box-shadow: none;
+  border-color: #419eda;
+}
+
+.sub-btn {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.4em;
+  background-color: #0086c3;
+  background-image: none;
+  color: #ffffff;
+  text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 6px 6px 6px 6px;
+  padding: 0.5em 1em;
+  display: inline-block;
+}
+
+.forgotten img {
+  margin-top: -5px;
+  margin-right: 4px;
+  width: 15px;
+}
+
+.forgotten a {
+  text-decoration: none;
+  color: #419eda;
+  font-family: Frutiger55, sans-serif;
+  font-size: 14px;
+}
+
+.forgotten a:hover {
+  text-decoration: underline;
+}
+
+.main-sec .main-sec-right p {
+  color: #032b5a;
+  font-family: Frutiger55, sans-serif;
+  font-size: 14px;
+  padding: 10px 0;
+  margin-bottom: 0;
+}
+
+.main-sec .main-sec-right {
+  padding: 35px 15px;
+}
+
+/* footer styling */
+.footer-sec {
+  background: linear-gradient(180deg, #23236a 0, #107ac0 100%);
+  padding: 35px 0;
+}
+
+.footer-sec .footer-full {
+  width: 83%;
+  margin: auto;
+}
+
+.footer-sec .footer-links-left {
+  display: flex;
+  align-items: center;
+  margin: 15px 0px;
+}
+
+.footer-sec img {
+  margin-right: 16px;
+  width: 32px;
+  height: 32px;
+}
+
+.footer-sec a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 19px;
+  font-family: Frutiger55, sans-serif;
+}
+
+.footer-sec a:hover {
+  color: white;
+}
+
+.footer-sec .footer-social-links img {
+  width: 24px;
+  height: 24px;
+  margin-right: 20px;
+}
+
+.footer-sec .secondary-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  margin-bottom: 8px !important;
+}
+
+.footer-sec .secondary-links a {
+  font-size: 12px;
+  font-family: Frutiger55, sans-serif;
+}
+
+.footer-sec p {
+  font-size: 12px;
+  font-family: Frutiger55, sans-serif;
+}
+
+.footer-sec .secondary-links li {
+  list-style-type: none;
+  margin-right: 8px;
+}
+
+/* Success page styling */
+.success-main-sec h1 {
+  font-size: 36px !important;
+  padding: 0;
+  color: #f48a22;
+  /* font-family: Frutiger45Light, sans-serif; */
+  font-weight: 100 !important;
+  line-height: 1em;
+}
+
+.success-main-sec p {
+  font-size: 24px;
+  color: #032b5a;
+  /* font-family: Frutiger55, sans-serif; */
+}
+
+.success-main-sec .succ-btn {
+  text-align: center;
+  font-weight: bold;
+  border: none;
+  background-color: #127dae;
+  color: white;
+  text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  text-decoration: none;
+  padding: 6px 15px;
+}
+
+/* Spiner page styling */
+.spiner-main-sec .ipad img {
+  width: 320px;
+  height: auto;
+}
+
+.spiner-main-sec h1 {
+  font-size: 36px !important;
+  padding: 0;
+  color: #f48a22;
+  font-family: Frutiger45Light, sans-serif;
+  font-weight: 100 !important;
+  line-height: 1em;
+}
+
+.spiner-main-sec p {
+  font-size: 32px;
+  color: #032b5a;
+  font-family: Frutiger55, sans-serif;
+}
+
+.spiner-main-sec .succ-btn {
+  text-align: center;
+  font-weight: bold;
+  border: none;
+  background-color: #127dae;
+  color: white;
+  text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  text-decoration: none;
+  padding: 6px 15px;
+}
+
+/* payment page styling */
+.payment-main-sec {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+}
+
+.payment-full {
+  width: 80%;
+  margin: auto;
+}
+
+.main-card {
+  background: linear-gradient(#1a529d, #2077ba);
+  height: 450px;
+  padding-left: 15px;
+  padding-top: 130px;
+}
+
+.expiration {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-detail {
+  color: white;
+  background-color: #00387e;
+  padding: 30px 15px;
+}
+
+.card-detail h6 {
+  margin-bottom: 0;
+}
+
+.payment-main-sec .row .form-control {
+  border: none;
+  border-bottom: 1px solid;
+  border-radius: 0;
+  padding: 15px 0px;
+}
+
+.payment-main-sec .row .form-control:focus {
+  box-shadow: none;
+  border-color: #419eda;
+}
+
+.deposit-form {
+  padding: 25px 20px 25px 40px;
+  background: #ffffff !important;
+  height: 100%;
+}
+
+.payment-main-sec p {
+  font-size: 20px;
+  color: #032b5a;
+  font-family: Frutiger55, sans-serif;
+}
+
+/* media Queries for Mobile size */
+@media (max-width: 767px) {
+  .topleft-links {
+    display: none;
+  }
+
+  .topright-links {
+    text-align: center !important;
+  }
+
+  .hero-sec {
+    height: auto !important;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .footer-social-links {
+    text-align: center !important;
+  }
+
+  .main-card {
+    display: none !important;
+  }
+
+  .hero-sec h1 {
+    padding: 30px 10px;
+    font-size: calc(1.375rem + 1.5vw);
+  }
+
+  .payment-full {
+    width: 100%;
+    padding-left: 12px;
+  }
+}
+
+@media (max-width: 992px) {
+  .payment-full {
+    width: 100%;
+    padding-left: 12px;
+  }
+}
